@@ -36,7 +36,7 @@ public class Test1 {
 				123, 24, 234, 999 // 22
 		};
 
-		CachedPersistentPageFile file = new CachedPersistentPageFile("d:/PointCloud/rtree.dat", 3);
+		CachedPersistentPageFile file = new CachedPersistentPageFile("rtree.dat", 3);
 		RTree tree = new RTree(2, 0.4f, 3, file, Constants.RTREE_QUADRATIC);
 
 		int j = 0;
